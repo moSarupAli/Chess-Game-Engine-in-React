@@ -22,6 +22,6 @@ export const clearCandidates = () => {
 
 export const takeBack = () => {
   return {
-    type: actionTypes.TAKE_BACK,
+    type: actionTypes.TAKE_BACK
   }
 }
