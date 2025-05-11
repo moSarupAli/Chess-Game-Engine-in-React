@@ -1,4 +1,3 @@
-import React from 'react';
 import { useAppContext } from '../../../contexts/Context';
 import arbiter from '../../../arbiter/arbiter';
 import { generateCandidateMoves } from '../../../reducer/actions/move';

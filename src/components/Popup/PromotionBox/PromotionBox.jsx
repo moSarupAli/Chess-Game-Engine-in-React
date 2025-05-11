@@ -1,4 +1,3 @@
-import React from 'react'
 import './PromotionBox.css'
 import { useAppContext } from '../../../contexts/Context';
 import { copyPosition, getNewMoveNotation } from '../../../helper';
