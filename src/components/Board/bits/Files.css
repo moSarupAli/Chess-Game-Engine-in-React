@@ -1,0 +1,7 @@
+.files {
+  display: flex;
+  justify-content: space-around;
+  color: var(--dark-tile);
+  grid-column: 2;
+  height: calc(0.25 * var(--tile-size));
+}

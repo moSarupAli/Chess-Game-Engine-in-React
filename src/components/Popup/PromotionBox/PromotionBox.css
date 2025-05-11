@@ -1,0 +1,27 @@
+.pormotion-choices {
+  height: 12.5%;
+}
+
+.pormotion-choices .piece {
+  width: 25%;
+  height: 100%;
+  border: 1px solid var(--dark-tile);
+}
+
+.pormotion-choices .piece:hover {
+  box-shadow: 0 0 0 5px var(--dark-tile) inset;
+  transform: scale(1.05);
+}
+
+.pormotion-choices :is(.wq, .bq) {
+  left: 0;
+}
+.pormotion-choices :is(.wr, .br) {
+  left: 25%;
+}
+.pormotion-choices :is(.wb, .bb) {
+  left: 50%;
+}
+.pormotion-choices :is(.wn, .bn) {
+  left: 75%;
+}
